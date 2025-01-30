@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary color -->
+        <item name="colorPrimary">@color/rose_brown</item>
+        <item name="colorPrimaryVariant">@color/milky_yellow</item>
+        <item name="colorOnPrimary">@color/mint_cream</item>
+
+        <!-- Secondary color -->
+        <item name="colorSecondary">@color/light_blue</item>
+        <item name="colorSecondaryVariant">@color/milky_yellow</item>
+        <item name="colorOnSecondary">@color/dark_grey</item>
+
+        <!-- Text appearance -->
+        <item name="android:textColorPrimary">@color/mint_cream</item>
+        <item name="android:textColorSecondary">@color/dark_grey</item>
+
+        <!-- Font -->
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+</resources>

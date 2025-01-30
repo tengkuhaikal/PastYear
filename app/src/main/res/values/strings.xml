@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Kids Learning</string>
+    <string name="mathsTitle">Mathematics</string>
+    <string name="mathsMenu">Maths</string>
+    <string name="englishTitle">English</string>
+    <string name="homeTitle">Home</string>
+    <string name="scoreTitle">Score</string>
+
+    <string name="submit">Submit</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="sure">Sure</string>
+    <string name="sureTitle">Are you sure?</string>
+    <string name="backHome">Back to home page</string>
+
+    <string name="questionEnd">Quiz ended</string>
+    <string name="scoreOnDialog">Your score: </string>
+    <string name="percentageOnDialog">Percentage: </string>
+    <string name="done">Done</string>
+
+    <string name="englishQuestion">What color is this?</string>
+
+
+</resources>
