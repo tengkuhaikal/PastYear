@@ -70,7 +70,7 @@ public class MathActivity extends AppCompatActivity {
 
     private void showSureDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setView(R.layout.custom_dialog); // Set your custom layout
+        builder.setView(R.layout.custom_dialog);
         builder.setPositiveButton(getString(R.string.sure), (dialog, which) -> {
             startActivity(new Intent(this, MainActivity.class));
         });
@@ -90,7 +90,7 @@ public class MathActivity extends AppCompatActivity {
     private void showDoneAlertDialog() {
         float percentage = ((float) score / questionList.size()) * 100;
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setView(R.layout.custom_dialog); // Set your custom layout
+        builder.setView(R.layout.custom_dialog);
         builder.setPositiveButton(getString(R.string.done), (dialog, which) -> {
             Intent intent = new Intent(this, MainActivity.class);
             intent.putExtra("score", score);
