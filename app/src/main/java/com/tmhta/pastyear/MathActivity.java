@@ -41,12 +41,6 @@ public class MathActivity extends AppCompatActivity {
 
         populateQuestions();
 
-        if (currentQuestionIndex == 0) {
-            previousCancelButton.setEnabled(false);
-        } else {
-            previousCancelButton.setEnabled(true);
-        }
-
         option1.setOnClickListener(v -> {
             checkAnswer(0);
         });

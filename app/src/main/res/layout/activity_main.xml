@@ -49,7 +49,7 @@
         android:elevation="8dp"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/questionIV">
+        app:layout_constraintTop_toBottomOf="@+id/divider">
 
         <ImageButton
             android:id="@+id/englishButton"
@@ -72,15 +72,6 @@
             android:textSize="20sp" />
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/questionIV"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_baseline_quiz_24"
-        app:tint="@color/rose_brown" />
 
     <TextView
         android:id="@+id/scoreTV"
@@ -88,10 +79,10 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:gravity="center"
-        android:text="Score"
+        android:text="Current Score"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:layout_width="130dp"
@@ -102,7 +93,8 @@
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/scoreTV">
+        app:layout_constraintTop_toBottomOf="@+id/scoreTV"
+        android:id="@+id/scoreLinearLayout">
 
         <TextView
             android:id="@+id/totalScoreTV"
@@ -122,6 +114,6 @@
         android:background="?android:attr/listDivider"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mathsLinearLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/scoreLinearLayout" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
