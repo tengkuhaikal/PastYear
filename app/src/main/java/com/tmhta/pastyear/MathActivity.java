@@ -119,14 +119,14 @@ public class MathActivity extends AppCompatActivity {
         Mathematics[] questions = new Mathematics[]{
                 new Mathematics("What is 2 + 2?", new String[]{"3", "4"}, 1),
                 new Mathematics("What is 5 - 3?", new String[]{"2", "3"}, 0),
-                new Mathematics("What is 10 * 5?", new String[]{"50", "55"}, 0)
-//                new Mathematics("What is 20 / 4?", new String[]{"5", "6"}, 0),
-//                new Mathematics("What is 7 + 8?", new String[]{"16", "15"}, 1),
-//                new Mathematics("What is 12 - 4?", new String[]{"8", "9"}, 0),
-//                new Mathematics("What is 3 * 6?", new String[]{"18", "19"}, 0),
-//                new Mathematics("What is 15 / 3?", new String[]{"7", "5"}, 1),
-//                new Mathematics("What is 9 + 7?", new String[]{"16", "17"}, 0),
-//                new Mathematics("What is 14 - 6?", new String[]{"8", "9"}, 0)
+                new Mathematics("What is 10 * 5?", new String[]{"50", "55"}, 0),
+                new Mathematics("What is 20 / 4?", new String[]{"5", "6"}, 0),
+                new Mathematics("What is 7 + 8?", new String[]{"16", "15"}, 1),
+                new Mathematics("What is 12 - 4?", new String[]{"8", "9"}, 0),
+                new Mathematics("What is 3 * 6?", new String[]{"18", "19"}, 0),
+                new Mathematics("What is 15 / 3?", new String[]{"7", "5"}, 1),
+                new Mathematics("What is 9 + 7?", new String[]{"16", "17"}, 0),
+                new Mathematics("What is 14 - 6?", new String[]{"8", "9"}, 0)
         };
 
         questionList.addAll(Arrays.asList(questions));
